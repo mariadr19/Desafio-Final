@@ -1,0 +1,28 @@
+
+.social{
+    background-color: #005695;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 10vh;
+    padding-left: 10%;
+    padding-right: 10%;
+    h3{
+        color: white;
+        font-size: 20px;
+    }
+    nav{
+        width: 18vw;
+        justify-content: space-between;
+        align-items: center;
+        display: flex;
+    }
+}
+.rodape{
+    background-color: #232020;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 5vh;
+}
