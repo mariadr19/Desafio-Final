@@ -1,25 +1,24 @@
-.box2{
-    border: 2px solid #005695;
-    height: 40vh;
-    width: 30vh;
+.boxDoados{
+    height: 70vh;
     display: flex;
     align-items: center;
     flex-direction: column;
-    border-radius: 10px;
-    img{
-        display: flex;
-        justify-content: space-between;
-        
-    }
-    p{
-        display: flexbox;
-        justify-content: space-between; 
-        align-items: center; 
-    }
-}
-.box1{
-    display: flex;
-    align-items: center;
-    flex-direction: column;
+    justify-content: center;
     
+}
+.boxCard{
+    width: 85vw;
+    height: 60vh;
+    display: flex;
+    justify-content: space-evenly;
+    article{
+        border: solid 2px #005695;
+        width: 13vw;
+        height: 33vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+        border-radius: 15px;
+    }
 }

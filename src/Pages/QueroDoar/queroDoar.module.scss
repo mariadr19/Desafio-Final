@@ -1,18 +1,45 @@
 .Principal{
-    border: solid 2px red;
     height: 80vh;
     display: flex;
     justify-content: center;
-    h2{
-        font-size: medium;
-    }
-    form{
-        border: solid 2px #005695;
-        height: 50vh;
-        width: 40vh;
-        border-radius: 15px;
-    }
 } 
+.conteiner{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+
+}
+form{
+    border: solid 2px #005695;
+    width: 25vw;
+    height: 60vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    border-radius: 15px;
+    div{
+        width: 100%;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        color: #005695;
+    }
+    input{
+        width: 22vw;
+        height: 5vh;
+        border: solid 2px #005695;
+        border-radius: 10px;
+        outline: none;
+        padding-left: 20px;
+        &::placeholder{
+            color: black;
+            align-items: center;
+            display: flex;
+        }
+    }
+}
 input:nth-child(6){
     width: 10vw;
     height: 6vh;

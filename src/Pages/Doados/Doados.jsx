@@ -3,13 +3,15 @@ import D from '../Doados/doados.module.scss'
 
 export default function Doados(){
     return(
-        <section className={D.box1}>
+        <section className={D.boxDoados}>
             <h2>Livros Doados</h2>
-            <section className={D.box2}>
-            <img src={protagonista} alt="" />
-                <p>O Protagonista</p>
-                <p>Susanne Andrade</p>
-                <p>Ficção</p>
+            <section className={D.boxCard}>
+                <article>
+                    <img src={protagonista} alt="" />
+                    <h3>O Protagonista</h3>
+                    <p>Susanne Andrade</p>
+                    <p>Ficção</p>
+                </article>
             </section>
         </section>
             
