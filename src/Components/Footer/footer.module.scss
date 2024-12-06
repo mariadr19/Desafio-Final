@@ -26,3 +26,28 @@
     justify-content: center;
     height: 5vh;
 }
+
+@media(max-width: 1025px){
+    .social{
+        nav{
+            width: 35vh;
+        }
+    }
+}
+@media(max-width: 425px){
+    .social{
+        flex-direction: column;
+        height: 12vh;
+        nav{
+
+        }
+    }
+    .rodape{
+        height: 10vh;
+        align-items: center;
+        text-align: center;
+        p{
+            width: 54vh;
+        }
+    }
+}

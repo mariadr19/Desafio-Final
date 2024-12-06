@@ -12,9 +12,10 @@
     display: flex;
     justify-content: space-evenly;
     article{
+        margin-top: 10px;
         border: solid 2px #005695;
-        width: 13vw;
-        height: 33vh;
+        width: 190px;
+        height: 230px;
         display: flex;
         flex-direction: column;
         align-items: center;
